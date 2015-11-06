@@ -1,6 +1,6 @@
 # *reddsight*
 
-*Reddsight* is an open-source Reddcoin blockchain explorer with complete REST and websocket APIs.
+*Reddsight* is an open-source ClickCoin blockchain explorer with complete REST and websocket APIs.
 Reddsight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
 Check some screenshots and more details at [reddsight's project homepage](https://github.com/reddcoin-project/reddsight).

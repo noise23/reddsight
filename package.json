@@ -1,12 +1,12 @@
 {
   "name": "reddsight",
-  "description": "An open-source frontend for the Reddsight API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Reddcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Reddsight API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the ClickCoin network and build your own services with it.",
   "version": "0.2.6",
   "author": {
     "name": "Larry Ren",
     "email": "ren@reddcoin.com"
   },
-  "repository": "git://github.com/reddcoin-project/reddsight.git",
+  "repository": "git://github.com/noise23/reddsight.git",
   "contributors": [
     {
       "name": "Mike Croteau",
@@ -50,7 +50,7 @@
     "insight",
     "blockchain",
     "blockexplorer",
-    "reddcoin",
+    "clickcoin",
     "bitcore",
     "front-end"
   ],
