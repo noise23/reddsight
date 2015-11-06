@@ -18,9 +18,9 @@
     </div>
   </div>
    <div class="alert alert-danger" data-ng-show="flashMessage">
-    {{flashMessage}}
+     {{flashMessage}}
   </div>
-  <h1>Address <small data-ng-show="address.addrStr">{{$root.currency.getConvertion(address.balance) || address.balance + ' CLICK'}}</small></h1>
+  <h1>Address <small data-ng-show="address.addrStr">Balance: {{$root.currency.getConvertion(address.balance) || address.balance + ' CLICK'}}</small></h1>
   <div class="text-muted" data-ng-if="!address.addrStr">
     <span>Loading Address Information <span class="loader-gif"></span>
   </div>
