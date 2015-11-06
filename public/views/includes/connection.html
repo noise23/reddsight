@@ -1,16 +1,17 @@
 <div class="connection-status container" data-ng-controller="ConnectionController">
 
   <div class="alert alert-danger" 
-    data-ng-show="!serverOnline || !clienteOnline || !apiOnline"
+<!--    data-ng-show="!serverOnline || !clienteOnline || !apiOnline" -->
+data-ng-show="!serverOnline || !clienteOnline"
     data-ng-init="getConnStatus()">
 
     <strong>Error!</strong>
-
+<!--  
     <p data-ng-show="!apiOnline">
       Can't connect to ClickCoind to get live updates from the p2p network.
       (Tried connecting to ClickCoind at {{host}}:{{port}} and failed.)
     </p>
-
+-->
     <p data-ng-show="!serverOnline">
       Can't connect to Reddsight server. Attempting to reconnect...
     </p>
